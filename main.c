@@ -7,6 +7,7 @@ int main() {
         return 1;
     }
     printf("Result: %d\n", a + b);
+    printf("Result: %d\n", a - b);
     printf("System Check OK.\n");
     return 0;
 }
