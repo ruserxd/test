@@ -1,4 +1,5 @@
-# include <stdio.h>
+#include <stdio.h>
+
 int main() {
     printf("=== C Language Calculator ===\n");
     //Operations placeholders
@@ -6,7 +7,7 @@ int main() {
     if (scanf("%d %d", &a, &b) != 2) {
         return 1;
     }
-    printf("Result: %d\n", a + b);
+    printf("Result: %d\n", a - b);
     printf("System Check OK.\n");
     return 0;
 }
